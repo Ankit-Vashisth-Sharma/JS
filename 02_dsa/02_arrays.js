@@ -20,3 +20,5 @@ const r1 = [1,2,3,[4,5,6,[7,8,9]]];
 console.log(r1[3][3][1]); // 8
 
 console.log(r1.flat(2)); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+console.log(Array.isArray(r1)); 
